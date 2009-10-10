@@ -1,5 +1,6 @@
 package Dist::Zilla::Plugin::MakeMaker::SkipInstall;
-our $VERSION = '1.0';
+our $VERSION = '1.001';
+
 
 
 use Moose;
@@ -47,7 +48,7 @@ Dist::Zilla::Plugin::MakeMaker::SkipInstall - skip the install rule of MakeMaker
 
 =head1 VERSION
 
-version 1.0
+version 1.001
 
 =head1 SYNOPSIS
 
