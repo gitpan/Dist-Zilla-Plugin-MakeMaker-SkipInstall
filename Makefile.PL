@@ -9,14 +9,14 @@ WriteMakefile(
   NAME      => 'Dist::Zilla::Plugin::MakeMaker::SkipInstall',
   AUTHOR    => "Pedro\ Melo\ \<melo\@cpan\.org\>",
   ABSTRACT  => "skip\ the\ install\ rule\ of\ MakeMaker",
-  VERSION   => '1.001',
+  VERSION   => '1.002',
   EXE_FILES => [ qw() ],
   (eval { ExtUtils::MakeMaker->VERSION(6.31) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {
-    "LogTest::More" => '0.92',
+    "Test::More" => '0.92',
     "Test::Exception" => '0',
     "Dist::Zilla" => '0',
-    "Dist::Zilla::Plugin::CheckChange" => '0',
+    "Dist::Zilla::Plugin::CheckChangeLog" => '0',
   },
   test => {TESTS => 't/*.t'}
 );
