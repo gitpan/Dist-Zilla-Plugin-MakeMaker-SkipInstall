@@ -8,6 +8,6 @@ dist.ini
 lib/Dist/Zilla/Plugin/MakeMaker/SkipInstall.pm
 t/00-load.t
 t/01-edit.t
-t/release-meta-yaml.t
+t/release-distmeta.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
